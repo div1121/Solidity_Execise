@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Hacking/fallout.sol": "ICoinFlip"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Hacking/fallout.sol": {
+			"keccak256": "0x033b485a1f260c872add9c3d18f8dcc3f52d3db1ccc5a60a7ad9cc0f7476712a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce9191732c5c3c1c904061e32fdb54f944e38963f5661acb3a33df352a7e5c44",
+				"dweb:/ipfs/QmWay5cwPXcemT2NhCb5cVZobVAgXbPhgjSzFYdaLa95G6"
+			]
+		}
+	},
+	"version": 1
+}

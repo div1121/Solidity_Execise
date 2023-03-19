@@ -1,0 +1,55 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers around BEP20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeBEP20 for IBEP20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
+			"kind": "dev",
+			"methods": {},
+			"title": "SafeBEP20",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/vonderfinance/vonder-masterchef/contracts/MasterChef.sol": "SafeBEP20"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/vonderfinance/vonder-masterchef/contracts/MasterChef.sol": {
+			"keccak256": "0x554333841d685e97338594446bda30a085220c9c45f1a37ff517845f7c19161c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5ae41a01307e8db63d04acd858884c51059181a23a69dd8409b6261b01520c0",
+				"dweb:/ipfs/QmNr7GZV19hpbeWyZfqtFozjKhNdHYmJ5kp9XBAQPgzHoA"
+			]
+		},
+		".deps/github/vonderfinance/vonder-masterchef/contracts/VonderToken.sol": {
+			"keccak256": "0xb2e9b67e21c5777dccae232737968f71beec185639c38ebe81c93862a02ff054",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9a8e4377976d055ac4d3b70bb86b23c0104a67acf016085a80934d5913731060",
+				"dweb:/ipfs/QmZsdKtGik2Y3JtirZDUPhZ42MFdrV2kq4qMEoVWi3c7x3"
+			]
+		}
+	},
+	"version": 1
+}

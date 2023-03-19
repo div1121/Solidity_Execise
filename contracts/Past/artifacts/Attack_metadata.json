@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract PasswordSafe2",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Hacking/password.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Hacking/password.sol": {
+			"keccak256": "0x0b71872706c13a7189481746dbd21e11128fcb400cd1684669097673b1f9e659",
+			"urls": [
+				"bzz-raw://be6d192dc145cc1a75dacfbc5a9ee7dc155ed44dfbe1bf9f70c6f7f25cfbaa53",
+				"dweb:/ipfs/QmW3yABemaHHc85MdDXY6tjSW5mU7h2eAjvHNzwefFkcsH"
+			]
+		},
+		"contracts/Hacking/passwordsafe2.sol": {
+			"keccak256": "0x40618a6013b3cd5c9c4e489b9e89dcda78637ff8d3d40940336806a386faf30b",
+			"urls": [
+				"bzz-raw://941e4c18830433e8f6ac2958d5d093564d916e4519a6e4b6388278dea9ccc3d3",
+				"dweb:/ipfs/QmdCRs4Ecxp4ZxQuEaZCcTsWrvLvM5cQcae3J37PdS5gAQ"
+			]
+		}
+	},
+	"version": 1
+}

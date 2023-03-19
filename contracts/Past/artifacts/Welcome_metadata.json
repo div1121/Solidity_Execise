@@ -1,0 +1,49 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Hacking/Welcome.sol": "Welcome"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Hacking/Welcome.sol": {
+			"keccak256": "0x842c8506e83de705a15e7f476af6a28e48ed08c4fca1154c5dd7562cd2ea000b",
+			"urls": [
+				"bzz-raw://1afc7b731a0a1c228971cfde615e77a2ffc21bf112439aaebbc34fec1eaee2ac",
+				"dweb:/ipfs/QmeXPK39LenUj68na3JCgeTwkmTvqLi5RU9BtxnQ74QK6d"
+			]
+		}
+	},
+	"version": 1
+}
